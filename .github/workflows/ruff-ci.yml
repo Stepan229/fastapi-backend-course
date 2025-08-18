@@ -22,6 +22,3 @@ jobs:
 
       - name: Run Ruff linting
         run: ruff check .  # проверяет весь репозиторий
-
-      - name: Try to fix errors
-        run: ruff --fix .
